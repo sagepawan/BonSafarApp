@@ -57,7 +57,7 @@ public class RegisterActivity extends AppCompatActivity {
                 user.signUpInBackground(new SignUpCallback() {
                     public void done(ParseException e) {
                         if (e == null) {
-                            progressDialog.dismiss();
+                            progressDialog.dismiss(); //dismiss
                             System.out.println("Sign up successful:");
                             startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
                         } else {
