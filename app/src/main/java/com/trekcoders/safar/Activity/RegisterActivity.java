@@ -23,6 +23,8 @@ public class RegisterActivity extends AppCompatActivity {
     EditText email, pass, mobile;
     ParseUser user;
 
+
+
     ProgressDialog progressDialog;
 
     @Override
