@@ -23,7 +23,7 @@ public class RegisterActivity extends AppCompatActivity {
     EditText email, pass, mobile;
     ParseUser user;
 
-
+    //git commit change
 
     ProgressDialog progressDialog;
 
